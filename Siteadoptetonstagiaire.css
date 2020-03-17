@@ -1,0 +1,110 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+header{
+    background: burlywood;
+    font-family: 'moykoregular', Arial, serif;
+    font-size: 1.3em;
+    padding-top: 40px;
+    height: 100px;
+    text-align: left;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  article{
+    width: 80%;
+    background-color: rgb(228, 226, 226);
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: left;
+    justify-content: center;
+    width: 88%;
+  
+    display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+h4 {
+  color:brown;
+
+}
+
+figcaption,figure{
+  text-align: left;
+}
+
+header a, footer a{
+  color: rosybrown;
+  z-index: 1;
+  text-decoration: none;
+}
+
+ul{
+  color: rosybrown;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 5px;
+}
+
+label{
+  display: inline-block;
+  min-width: 900px;
+}
+
+input[type="submit"]{
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.logo{
+  position: absolute;
+  z-index: 1;
+  left: 295px;
+  top: 50px;
+}
+
+footer{
+  background: burlywood;
+  font-family: 'moykoregular', Arial, serif;
+  text-decoration:black;
+  font-size: 1.3em;
+  padding-top: 40px;
+  height: 50px;
+  text-align: left;
+}
+
+/* formulaire */
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+#motif{
+  width: 1280px;
+}
+
+input[type="submit"]{
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.box{ /*header & footer*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}

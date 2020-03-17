@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Siteadoptetonstagiaire.css">
+    <title>Formulaire contact</title>
+</head>
+<body>
+    <div class="image"><img src="formulairecontact.png" class="image" alt="logocontact" /> </div>
+    <form method="post" action="contact">
+        <fieldset>
+            <legend><h2>CONTACT</h2></legend>
+            <p><label>Nom</label> <input type="text" name="nom" size="150"/></p>
+            <p><label>Prénom</label> <input type="text" name="prénom" size="150"/></p>
+            <p><label>Entreprise</label> <input type="text" name="Entreprise" size="150"/></p>
+            <p><label>Email</label> <input type="text" name="Email" size="150"/></p>
+            <p><label>Numéro de téléphone</label> <input type="text" name="Numtel" size="150"/></p>
+            <label for="motif">Desription </label>
+            <select name="motif" id="motif">
+                <option value="Entretien">Entretien avec une personne bien précise</option>
+                <option value="Information">Demande d'information complementaire</option>
+            </select>
+            <p><label for="message">Message</label><textarea name="message" class="message" cols="180" rows="5"></textarea></p>
+            <div class="flex">
+                <input type="submit" id="cancel" value="Annuler" /> <input type="submit" id="submit" value="Envoyer" />
+            </div>
+        </fieldset>
+    </form>
+
+    <footer id="footer">
+        <div class="box">
+            <div><a href="loremipsum.pdf" target="_blank">Mentions légales</a></div>
+            <div><a href="loremipsum.pdf" target="_blank">Où nous trouver ?</a></div>
+            <div><a href="contact.html" target="_blank">Contactez-nous</a></div>
+            
+    </footer>
+    <footer id="footer">
+        <a href="Siteadoptetonstagiaire.html">Page d'accueil<font size="+3"><strong></strong></font></a>
+      </footer>
+<!-- </main> -->
+<script>document.getElementById("cancel").disabled = true;</script>
+<script>document.getElementById("submit").disabled = true;</script>
+</body>
+</html>
